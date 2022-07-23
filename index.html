@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trackl</title>
+    <link rel="stylesheet" href="./style.css" />
+    <!-- kit -->
+    <script
+      src="https://kit.fontawesome.com/d08fba0fb1.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+      <div class="container header-div dflex justi-between align-item-center">
+        <a class="logo" href="./index.html">Trackl</a>
+        <label class="bars" for="toogle">
+          <i class="fas fa-bars"></i>
+        </label>
+        <input id="toogle" type="checkbox" />
+        <nav class="header-nav">
+          <ul class="dflex flex-darection-r text-t-captailze">
+            <li><a href="#feature">features</a></li>
+            <li><a href="#pricing">pricing</a></li>
+            <li><a href="#about">about</a></li>
+            <li><a href="#trail">help</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- hero section -->
+    <main>
+      <section class="hero">
+        <div class="container main-div main-div-mq">
+          <h1>track the learing process schedule</h1>
+          <button class="trail-btn trail-btn-mq">get 30 days trail</button>
+          <img
+            class="hero-image hero-image-mq"
+            src="./assets/hero.png"
+            alt="img"
+          />
+        </div>
+      </section>
+
+      <!-- file-div -->
+      <div class="container file-div file-div-mq">
+        <ul class="file-ul text-a-center dflex justi-between">
+          <li>
+            <img
+              class="file-img file-img-mq"
+              src="./assets/pdf.png"
+              alt="file img"
+            />
+            <small>PDF FILE</small>
+          </li>
+          <li>
+            <img
+              class="file-img file-img-mq"
+              src="./assets/word.png"
+              alt="word img"
+            />
+            <small>WORD FILE</small>
+          </li>
+          <li>
+            <img
+              class="file-img file-img-mq"
+              src="./assets/image.png"
+              alt="img"
+            />
+            <small>IMAGE FILE</small>
+          </li>
+          <li>
+            <img
+              class="file-img file-img-mq"
+              src="./assets/video.png"
+              alt="video"
+            />
+            <small>VIDEO FILE</small>
+          </li>
+        </ul>
+      </div>
+      <!-- article-section -->
+      <section class="article-section" id="about">
+        <article class="container dflex justi-between flex-colum-mq">
+          <div class="flex-40 flex-100-mq">
+            <h2 class="text-t-captailze">
+              Monitor your learning
+              <br />
+              and improve it
+            </h2>
+            <p class="article-pera article-pera-mq">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Cupiditate eveniet modi sed? Quaerat delectus voluptatibus magnam
+              corrupti.
+            </p>
+            <a class="learn-more-btn text-t-captailze" href="#">learn more</a>
+          </div>
+          <!-- 2 -->
+          <div class="flex-40 score-div-mq flex-100-mq">
+            <img src="./assets/learning-graph.png" alt="" />
+          </div>
+        </article>
+      </section>
+      <!-- score-section -->
+      <section
+        class="container score-section score-section-mq"
+        id="weekly-score"
+      >
+        <h3>weekly score</h3>
+        <table class="table-mq">
+          <!-- 1 -->
+          <tr>
+            <th>days</th>
+            <th>course</th>
+            <th>score(0-100)</th>
+            <th>hour spent</th>
+          </tr>
+          <!-- 2 -->
+          <tr>
+            <td>monday</td>
+            <td>product design</td>
+            <td>40</td>
+            <td>2 hour 30 min</td>
+          </tr>
+          <!-- 3 -->
+          <tr>
+            <td>tuesday</td>
+            <td>product design</td>
+            <td>60</td>
+            <td>3 hour 20 min</td>
+          </tr>
+          <!-- 4 -->
+          <tr>
+            <td>wednesday</td>
+            <td>data science</td>
+            <td>20</td>
+            <td>1 hour 30 min</td>
+          </tr>
+          <!-- 5 -->
+          <tr>
+            <td>thursday</td>
+            <td>ui design</td>
+            <td>60</td>
+            <td>2 hour 20 min</td>
+          </tr>
+          <!-- 6 -->
+          <tr>
+            <td>friday</td>
+            <td>ux design</td>
+            <td>30</td>
+            <td>2 hour 30 min</td>
+          </tr>
+          <!-- 7 -->
+          <tr>
+            <td>saturday</td>
+            <td>data science</td>
+            <td>50</td>
+            <td>2 hour 40 min</td>
+          </tr>
+          <!-- 8 -->
+          <tr>
+            <td>sunday</td>
+            <td>HTML & CSS</td>
+            <td>70</td>
+            <td>3 hour 30 min</td>
+          </tr>
+        </table>
+      </section>
+      <!-- pricing-section -->
+      <section class="container" id="pricing">
+        <div class="text-a-center">
+          <h2 class="text-t-captailze">
+            join us and let's study
+            <br />
+            with your friends
+          </h2>
+          <span class="monthly">
+            Monthly
+            <button class="monthly-btn">
+              <i class="fa-solid fa-circle-exclamation"></i>
+            </button>
+            Yearly
+          </span>
+        </div>
+        <div class="dflex justi-con-around text-a-center flex-d-colum-mq">
+          <div class="flex-35 pading price-div width-100-mq">
+            <h4 class="text-t-captailze">basic</h4>
+            <p class="pricing-pera">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti,
+              eveniet
+            </p>
+            <span class="price-span">
+              $
+              <strong class="price-strong">48</strong>
+              <strong class="month">/month</strong>
+            </span>
+            <hr class="hr" />
+            <p class="line-hight">
+              <img class="tick-image" src="./assets/tick.png" alt="tick.png" />
+              50 course a day
+            </p>
+            <p class="line-hight">
+              <img class="tick-image" src="./assets/tick.png" alt="tick.png" />
+              4 forums a month
+            </p>
+            <p class="line-hight">
+              <img class="tick-image" src="./assets/tick.png" alt="tick.png" />
+              16 chapter a day
+            </p>
+            <p class="line-hight c-gray">
+              <img
+                class="tick-image"
+                src="./assets/cross.png"
+                alt="cross.png"
+              />
+              privata lessons once a week
+            </p>
+            <p class="line-hight c-gray">
+              <img
+                class="tick-image"
+                src="./assets/cross.png"
+                alt="cross.png"
+              />
+              get wekkly reward
+            </p>
+            <button class="get-started-btn bg-color-white text-t-captailze">
+              get started
+            </button>
+          </div>
+          <div class="flex-35 pading price-div width-100-mq">
+            <h4 class="text-t-captailze">most popular</h4>
+            <p class="pricing-pera">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti,
+              eveniet
+            </p>
+            <span class="price-span">
+              $
+              <strong class="price-strong">58</strong>
+              <strong class="month">/month</strong>
+            </span>
+            <hr class="hr" />
+            <p class="line-hight">
+              <img class="tick-image" src="./assets/tick.png" alt="tick.png" />
+              50 course a day
+            </p>
+            <p class="line-hight">
+              <img class="tick-image" src="./assets/tick.png" alt="tick.png" />
+              4 forums a month
+            </p>
+            <p class="line-hight">
+              <img class="tick-image" src="./assets/tick.png" alt="tick.png" />
+              16 chapter a day
+            </p>
+            <p class="line-hight">
+              <img class="tick-image" src="./assets/tick.png" alt="tick.png" />
+              privata lessons once a week
+            </p>
+            <p class="line-hight">
+              <img class="tick-image" src="./assets/tick.png" alt="tick.png" />
+              get wekkly reward
+            </p>
+            <button class="get-started-btn bg-color text-t-captailze">
+              get started
+            </button>
+          </div>
+        </div>
+      </section>
+      <!-- trail-section -->
+      <section class="container trail-section" id="trail">
+        <div class="trail-div bg-color text-a-center text-t-captailze">
+          <h5>stary your 30 days trail now!</h5>
+          <button class="trail-btn text-t-captailze">
+            get started
+          </button>
+        </div>
+      </section>
+    </main>
+    <!-- footer -->
+    <footer class="container text-a-center" id="feature">
+      <div class="dflex justi-con-around f-Div">
+        <div class="flex-35 justi-between footer-div">
+          <a href="#">Trackl</a>
+          <p class="c-light-blue">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Voluptates, maxime.
+          </p>
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-twitter-square"></i>
+          <i class="fa-brands fa-instagram"></i>
+        </div>
+
+        <div class="dflex flex-70 justi-between">
+          <div class="flex-20">
+            <ul>
+              <li class="fotter-head text-t-captailze">
+                feature
+              </li>
+              <li>
+                <a class="footer-anc text-t-captailze c-light-blue" href="#">
+                  calender
+                </a>
+              </li>
+              <li>
+                <a class="footer-anc text-t-captailze c-light-blue" href="#">
+                  forum
+                </a>
+              </li>
+              <li>
+                <a class="footer-anc text-t-captailze c-light-blue" href="#">
+                  messanger
+                </a>
+              </li>
+              <li>
+                <a class="footer-anc text-t-captailze c-light-blue" href="#">
+                  schedule
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="flex-20">
+            <ul>
+              <li class="fotter-head text-t-captailze">
+                support
+              </li>
+              <li>
+                <a class="footer-anc text-t-captailze c-light-blue" href="#">
+                  about us
+                </a>
+              </li>
+              <li>
+                <a class="footer-anc text-t-captailze c-light-blue" href="#">
+                  carrer
+                </a>
+              </li>
+              <li>
+                <a class="footer-anc text-t-captailze c-light-blue" href="#">
+                  FAQs
+                </a>
+              </li>
+              <li>
+                <a class="footer-anc text-t-captailze c-light-blue" href="#">
+                  security
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="flex-20">
+            <ul>
+              <li class="fotter-head text-t-captailze">
+                contact
+              </li>
+              <li>
+                <a class="footer-anc text-t-captailze c-light-blue" href="#">
+                  hello@trackl
+                </a>
+              </li>
+              <li>
+                <a class="footer-anc text-t-captailze c-light-blue" href="#">
+                  (+00) 0000 000 000
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <span class="footer-span">
+        &copy copyright 2022 Designed by
+        <strong class="c-green">Naresh Rajput</strong>
+      </span>
+    </footer>
+  </body>
+</html>

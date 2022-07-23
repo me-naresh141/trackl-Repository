@@ -1,0 +1,407 @@
+@import './reset.css';
+@import './comman.css';
+
+/* header */
+header {
+  background-color: rgb(89, 191, 194);
+  padding-bottom: 4rem;
+  position: fixed;
+  width: 100%;
+  padding-top: 2rem;
+}
+.header-nav ul li a {
+  margin-left: 2rem;
+  color: white;
+  font-size: 1rem;
+  font-weight: 700;
+}
+.header-nav ul li a:hover {
+  color: aqua;
+}
+.logo {
+  font-size: 2rem;
+  color: white;
+  font-weight: 600;
+}
+.bars {
+  display: none;
+}
+
+a:hover {
+  color: aqua;
+}
+/* navbar */
+
+#toogle {
+  display: none;
+}
+/* main */
+.hero {
+  background-color: rgb(89, 191, 194);
+  padding-top: 7rem;
+}
+.main-div {
+  width: 40%;
+  height: 500px;
+  text-align: center;
+}
+h1 {
+  font-size: 3.5rem;
+  text-transform: capitalize;
+  font-weight: 600;
+  color: white;
+  padding-top: 2rem;
+}
+.trail-btn {
+  font-size: 1.3rem;
+  text-transform: capitalize;
+  padding: 0.7rem;
+  font-weight: 500;
+  border-radius: 5px;
+  margin-top: 4rem;
+  border: none;
+  color: rgb(49, 67, 119);
+}
+
+.hero-image {
+  position: relative;
+  top: -3.5rem;
+  box-shadow: 0px 60px 0px 0px rgba(234, 239, 248, 0.214);
+}
+
+/* file-div */
+.file-div {
+  margin-top: 11rem;
+  padding-bottom: 4rem;
+  border-bottom: 1px solid rgb(189, 200, 224);
+}
+.file-img {
+  width: 10%;
+}
+small {
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: rgb(189, 200, 224);
+}
+/* article-section */
+.article-section {
+  margin-top: 5rem;
+}
+h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.5;
+  color: rgb(61, 81, 137);
+}
+.article-pera {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  padding-top: 1.5rem;
+  font-weight: 600;
+  color: rgb(122, 141, 182);
+  margin-bottom: 2rem;
+}
+.learn-more-btn {
+  background-color: rgb(89, 191, 194);
+  padding: 1rem 2rem;
+  color: white;
+  font-weight: 700;
+}
+
+/* score-section */
+.score-section {
+  margin: 8rem auto;
+}
+h3 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: 700;
+  color: rgb(40, 62, 125);
+  margin-bottom: 2rem;
+}
+table {
+  width: 70%;
+  margin: 0 auto;
+}
+th,
+td {
+  text-transform: capitalize;
+}
+th {
+  background-color: rgb(61, 158, 161);
+  color: white;
+  font-size: 1.5rem;
+  padding: 0.8rem 0;
+}
+td {
+  border: 1px solid rgb(242, 242, 242);
+  text-align: center;
+  font-size: 1.2rem;
+  line-height: 2.5;
+  color: rgb(108, 111, 117);
+}
+tr:nth-of-type(odd) {
+  background-color: rgb(213, 229, 229);
+}
+/* pricing */
+.monthly-btn {
+  width: 6rem;
+  height: 2.2rem;
+  border-radius: 5rem;
+  background-color: rgb(187, 236, 236);
+  border: none;
+}
+.fa-circle-exclamation {
+  font-size: 2rem;
+  margin-left: 3rem;
+  color: rgb(89, 191, 194);
+}
+.monthly {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.price-div {
+  border: 4px solid rgb(232, 238, 251);
+  border-radius: 1rem;
+  margin-top: 6rem;
+}
+h4 {
+  font-size: 2rem;
+  font-weight: 500;
+}
+.pricing-pera {
+  margin: 1.5rem 0;
+  line-height: 1.5;
+  font-size: 1.2rem;
+}
+.tick-image {
+  width: 6%;
+}
+.price-span {
+  color: rgb(89, 191, 194);
+  font-size: 1.5rem;
+}
+.price-strong {
+  font-size: 3rem;
+}
+.month {
+  color: gray;
+}
+.get-started-btn {
+  padding: 0.8rem 0;
+  width: 90%;
+  font-size: 1.5rem;
+  border-radius: 0.5rem;
+  border: 3px solid rgb(232, 238, 251);
+}
+
+/* trail-section */
+.trail-section {
+  margin: 6rem auto 4rem auto;
+}
+.trail-div {
+  width: 80%;
+  margin: 0 auto;
+  font-size: 3rem;
+  padding: 3rem;
+  border-radius: 2rem;
+}
+.trail-btn {
+  padding: 0.8rem 0;
+  width: 40%;
+  font-size: 1.5rem;
+  border-radius: 0.5rem;
+  border: 3px solid rgb(232, 238, 251);
+  color: rgb(40, 62, 125);
+}
+h5 {
+  color: white;
+}
+
+/* footer */
+
+.footer-div a {
+  font-size: 2rem;
+  font-weight: 700;
+  color: rgb(40, 62, 125);
+}
+.footer-div p {
+  font-size: 1.1rem;
+  line-height: 1.1;
+  margin: 1rem 0;
+}
+.footer-div i {
+  font-size: 2rem;
+  color: rgb(89, 191, 194);
+  margin-left: 1rem;
+}
+.fotter-head {
+  font-size: 1.7rem;
+  font-weight: 600;
+  color: rgb(40, 62, 125);
+}
+.footer-anc {
+  line-height: 1.5;
+  font-size: 1.2rem;
+}
+.f-Div {
+  margin-bottom: 3rem;
+}
+/* media-query */
+
+@media all and (max-width: 768px) {
+  html {
+    font-size: 10px;
+  }
+  .header-nav ul li a {
+    margin-left: 0;
+    color: white;
+    font-size: 2rem;
+    font-weight: 700;
+  }
+
+  .header-nav ul {
+    display: flex;
+    flex-direction: column;
+  }
+  /* navbar */
+  .header-nav {
+    display: none;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(127, 157, 255, 0.429);
+    padding-top: 120px;
+    text-align: center;
+  }
+  .header-nav li {
+    margin: 16px 0;
+  }
+  #toogle:checked ~ .header-nav {
+    display: inline-block;
+  }
+  .bars {
+    font-size: 24px;
+    color: white;
+    position: fixed;
+    right: 32px;
+    top: 40px;
+    z-index: 99;
+    display: block;
+  }
+  .logo {
+    position: fixed;
+    left: 32px;
+    top: 40px;
+    z-index: 99;
+  }
+  header {
+    height: 80px;
+  }
+  /* main */
+  .main-div-mq {
+    width: 100%;
+    height: 400px;
+  }
+  h1 {
+    padding: 2rem 0;
+    line-height: 1.5;
+  }
+
+  .hero-image-mq {
+    position: relative;
+    top: -1rem;
+    box-shadow: 0px 40px 0px 0px rgba(234, 239, 248, 0.214);
+  }
+
+  /* file-div */
+  .file-div-mq {
+    width: 80%;
+    border-bottom: 1px solid rgb(189, 200, 224);
+    justify-content: flex-start;
+    margin-top: 8rem;
+    padding-bottom: 2rem;
+  }
+  .file-img-mq {
+    width: 10%;
+  }
+  small {
+    color: rgb(189, 200, 224);
+  }
+  /* article */
+  .flex-colum-mq {
+    flex-direction: column;
+  }
+  .flex-100-mq {
+    flex: 0 1 100%;
+  }
+
+  .score-div-mq {
+    margin-top: 3rem;
+  }
+  /* table */
+  .score-section-mq {
+    margin: 5rem auto;
+  }
+
+  .table-mq {
+    width: 100%;
+  }
+  th {
+    padding: 0.4rem 0;
+  }
+  td {
+    line-height: 4;
+  }
+  /* pricing */
+  .width-100-mq {
+    width: 100%;
+  }
+  .flex-d-colum-mq {
+    flex-direction: column;
+  }
+  .price-div {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+  .pricing-pera {
+    margin: 1.5rem 0;
+    line-height: 0.8;
+  }
+  .hr {
+    width: 100%;
+    margin: 1.5rem auto;
+  }
+  .line-hight {
+    line-height: 2;
+  }
+  /* trail-section */
+  .trail-div {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+  }
+
+  .trail-btn {
+    padding: 0.5rem 0;
+    width: 70%;
+  }
+  /* footer */
+
+  .footer-anc {
+    line-height: 1.5;
+  }
+
+  .footer-div p {
+    margin: 0.2rem 0;
+  }
+  .footer-div i {
+    color: rgb(89, 191, 194);
+    margin-left: 0rem;
+  }
+}

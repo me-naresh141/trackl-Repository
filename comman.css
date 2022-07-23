@@ -1,0 +1,83 @@
+.container {
+  max-width: 1600px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+img {
+  width: 100%;
+}
+.text-t-captailze {
+  text-transform: capitalize;
+}
+.line-hight {
+  line-height: 2.5;
+  font-size: 1.3rem;
+  text-align: start;
+}
+.hr {
+  width: 100%;
+  margin: 3rem auto;
+}
+.pading {
+  padding: 2rem 2rem 1rem 2rem;
+}
+.c-gray {
+  color: rgba(128, 128, 128, 0.483);
+}
+.c-light-blue {
+  color: rgb(103, 124, 171);
+}
+.c-green {
+  color: rgb(89, 191, 194);
+}
+.bg-color {
+  background-color: rgb(89, 191, 194);
+}
+.bg-color-white {
+  background-color: white;
+}
+.fa-brands:hover {
+  cursor: pointer;
+  font-size: 2.5rem;
+  color: aqua;
+}
+/* flex */
+.dflex {
+  display: flex;
+}
+.flex-darection-c {
+  flex-direction: column;
+}
+.flex-darection-r {
+  flex-direction: row;
+}
+.justi-between {
+  justify-content: space-between;
+}
+.justi-con-around {
+  justify-content: space-around;
+}
+.align-item-center {
+  align-items: center;
+}
+
+.text-a-center {
+  text-align: center;
+}
+.flex-20 {
+  width: 20%;
+  flex: 0 1 20%;
+}
+.flex-35 {
+  flex: 0 1 35%;
+}
+.flex-40 {
+  flex: 0 1 40%;
+}
+.flex-70 {
+  flex: 0 1 40%;
+}
